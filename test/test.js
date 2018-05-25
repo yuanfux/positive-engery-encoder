@@ -1,9 +1,9 @@
 const assert = require('assert');
-const positiveValueEncoder = require('../dist/positive-energy-encoder');
+const positiveEnergyEncoder = require('../dist/positive-energy-encoder');
 
 function encodeNdecode(str) {
-	let encoded = positiveValueEncoder.encode(str);
-	let decoded = positiveValueEncoder.decode(encoded);
+	let encoded = positiveEnergyEncoder.encode(str);
+	let decoded = positiveEnergyEncoder.decode(encoded);
 	assert.strictEqual(str, decoded);
 }
 
