@@ -1,4 +1,6 @@
-# 正能量转义工具 [![npm version](https://badge.fury.io/js/positive-energy-encoder.svg)](https://badge.fury.io/js/positive-energy-encoder)  [![Build Status](https://travis-ci.org/yuanfux/positive-engery-encoder.svg?branch=master)](https://travis-ci.org/yuanfux/positive-engery-encoder)
+# 正能量转义工具 
+
+[![npm version](https://badge.fury.io/js/positive-energy-encoder.svg)](https://badge.fury.io/js/positive-energy-encoder)  [![Build Status](https://travis-ci.org/yuanfux/positive-engery-encoder.svg?branch=master)](https://travis-ci.org/yuanfux/positive-engery-encoder)
 
 一个充满正能量的中文词汇转义工具inspired by @sym233
 
