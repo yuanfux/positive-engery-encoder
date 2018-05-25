@@ -3,7 +3,6 @@ const positiveValueEncoder = require('../dist/positive-energy-encoder');
 
 function encodeNdecode(str) {
 	let encoded = positiveValueEncoder.encode(str);
-	console.log('encoded', encoded);
 	let decoded = positiveValueEncoder.decode(encoded);
 	assert.strictEqual(str, decoded);
 }
@@ -23,6 +22,5 @@ describe('Test encode & decode', function() {
 			return str.join('');
 		}();
 		encodeNdecode(asciiStr);
-		encodeNdecode('暴力血腥');
 	});
 });
